@@ -96,7 +96,7 @@ h1 {
   margin-bottom: 10px;
 }
 
- p {
+ .main p {
   font-size: 1.1rem;
   max-width: 600px;
   line-height: 1.6;
@@ -124,7 +124,7 @@ h1 {
   box-shadow:2px 0px #e89595;
 }
 
-.dec:hover {
+.dec:hover,.decc:hover {
   background: #005ec2;
 }
 .dec:active{
@@ -181,6 +181,8 @@ h1 {
     box-shadow:0px 0px #e89595;
     transform: translateY(4px);
    }
+
+   
  
    .making p{
     margin-top:10px;
@@ -236,7 +238,7 @@ h1 {
     height: 40px;
     border: None;
     border-radius: 5px;
-    background-color: rgb(15, 13, 13);
+    background-color: rgb(0, 0, 0);
     cursor:pointer;
     box-shadow:2px 0px #e89595;
    }
@@ -244,4 +246,33 @@ h1 {
    .hic:hover {
     transform: translateY(2px);
     cursor: pointer;
+    box-shadow: 1px 4px 6px rgba(7, 6, 6, 0.3);
+    
    }
+   .about{
+    display: flex;
+    height: 300px;
+    margin-top: 40px;
+    justify-content: space-between;
+    background-color: #d59dff;
+    padding-left:10% ;
+    padding-top: 30px;
+    padding-right: 10%;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ddd;
+    color: black;
+   }
+    .about-section{
+      margin-top: 50px;
+      width: 93%;
+    }
+.butto{
+      background-color: #9f61ce;
+      padding: 7px;
+border-radius: 4px;
+      border: none;
+    }
+.butto:hover {
+      background: #005ec2;
+      cursor: pointer;
+    }

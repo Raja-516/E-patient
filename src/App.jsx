@@ -3,8 +3,9 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './App.css'
 import imgg from '/image.png';
 import Button from '@mui/material/Button';
+import About from '../components/About.jsx';
 function App() {
-  
+
 
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
         </ul>
       
       <div className="butt"><button className='butto'>Login</button>
-      <button className='button'>Make Appoinments</button></div>
+      <button className='butto'>Make Appoinments</button></div>
      </div>
      <div className='app'>
      <div className="main">
@@ -86,8 +87,7 @@ function App() {
       </div>
     </div>
    
-
-
+<div className="about-section"><About /></div>
 
   </div>
 </>
