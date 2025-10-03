@@ -1,9 +1,12 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './App.css'
-import imgg from '/image.png';
+import imgg from '/image1.png';
 import Button from '@mui/material/Button';
 import About from '../components/About.jsx';
+import Services from '../components/Services.jsx';
+import Doctors from '../components/Doctors.jsx';
+import Testimonals from '../components/Testimonals.jsx';
 function App() {
 
 
@@ -66,27 +69,16 @@ function App() {
     </div>
   </div>
 
+  <Services />
+
+  <Doctors />
+
   <div className="making">
     <p>make easier way for your appointments ,it may take less than 5 minutes of time for your health</p>
     <span ><button className='decc'>Make Apointment</button></span>
   </div>
-
-    <div className="history">
-      <h2 className="nam">Patient Recent History</h2>
-      <div className="hic">
-        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
-        <p>Dr.Radhika mam </p>
-      </div>
-      <div className="hic">
-        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
-        <p>Dr.Radhika mam </p>
-      </div>
-      <div className="hic">
-        <div><h2>Fever</h2><span>1/10/2025 to 1/10/26</span></div>
-        <p>Dr.Radhika mam </p>
-      </div>
-    </div>
-   
+    <Testimonals />
+    
 <div className="about-section"><About /></div>
 
   </div>

@@ -1,6 +1,7 @@
 function About(){
     return(
         <div className="about">
+            
             <div><h2>E-patient</h2>
                 <div>
                     <p>hello</p>
@@ -28,7 +29,17 @@ function About(){
                     
                 </div>
             </div>
+            
+            <div><h4>Contact Us</h4>
+                <div>
+                    <p>+91 9876543210</p>
+                    
+                </div>
+            </div>
+            
         </div>
+        
+        
     )   
 }
 export default About;
